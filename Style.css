@@ -48,13 +48,48 @@ border-radius: 35px;
 background-color: #BBF246;
 color: white;
 border: none;
+
+
+}
+.center button a{
+color: white;
 font-size: 16px;
 font-weight: 700;
 font-family: 'Lato', sans-serif;
+text-decoration: none;
 
 }
 @media(max-width:500px){
     .main{
         width: 100%;
     }
+}
+.login-cover{
+    background-image: url(./Assets/Mask\ group.svg);
+
+    background-color: aqua;
+    background-repeat: no-repeat;
+padding: 30px;
+padding-bottom: 200px;
+
+}
+.login-cover a{
+    font-size: 16px;
+    font-weight: 600;
+    font-family: 'Open Sans', sans-serif;
+color: white;
+}
+.login-tab{
+    display: flex;
+    flex-direction: row;
+    padding-top: 50px;
+
+    gap: 30px;
+}
+.login-cover h1{
+    margin-top: 100px;
+    color: white;
+    font-size: 36px;
+font-weight: 900;
+font-family: 'Lato', sans-serif;
 }
