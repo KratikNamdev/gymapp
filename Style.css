@@ -67,7 +67,7 @@ text-decoration: none;
 .login-cover{
     background-image: url(./Assets/Mask\ group.svg);
 
-    background-color: aqua;
+  
     background-repeat: no-repeat;
 padding: 30px;
 padding-bottom: 200px;
@@ -78,6 +78,7 @@ padding-bottom: 200px;
     font-weight: 600;
     font-family: 'Open Sans', sans-serif;
 color: white;
+padding: 5px;
 }
 .login-tab{
     display: flex;
@@ -92,4 +93,44 @@ color: white;
     font-size: 36px;
 font-weight: 900;
 font-family: 'Lato', sans-serif;
+}
+.border-b{
+    border-bottom: 3px solid #D0FD3E;
+}
+.login-inputs{
+ 
+    padding: 30px;
+    margin-top: 50px;
+
+}
+.login-inputs label{
+    font-size: 17px;
+    font-weight: 400;
+    font-family: 'Open Sans', sans-serif;
+
+}
+.login-inputs input{
+    width: 100%;
+    border: none;
+    background: none;
+    border-bottom: 1px solid black;
+}
+.login-inputs a{
+    float: right;
+    font-size: 13px;
+    font-weight: 600;
+    font-family: 'Open Sans', sans-serif;
+    color: #BBF246;
+    text-decoration: none;
+}
+.login-inputs button{
+    width: 100%;
+    height: 50px;
+    border: none;
+    border-radius: 48px;
+    background-color: #BBF246;
+    font-size: 17px;
+    font-weight: 600;
+    font-family: 'Open Sans', sans-serif;
+
 }
