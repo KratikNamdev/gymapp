@@ -1,20 +1,25 @@
 *{
     margin: 0;padding: 0;box-sizing: border-box;
 }
-.main-div{
-    width: 100%;
+
+
+.conten{
+    height: auto;
+    width: 100vw;
+
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
-    flex-direction: column;
+
 }
-.mobile-section{
-    /* width: 30%; */
-    
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
+.main{
+    width: 50%;
+    height: auto;
+    background-color: #FFF;
+}
+.hero{
+    width: 100%;
 }
 .center{
  display: flex;
@@ -47,4 +52,9 @@ font-size: 16px;
 font-weight: 700;
 font-family: 'Lato', sans-serif;
 
+}
+@media(max-width:500px){
+    .main{
+        width: 100%;
+    }
 }
